@@ -1,0 +1,1 @@
+head -n 8 deposition_Joe_Rugiani.txt > deposition_Joe_Rugiani_trafiquee.txt
