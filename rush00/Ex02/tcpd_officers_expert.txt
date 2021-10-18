@@ -1,0 +1,1 @@
+awk 'BEGIN { expert = 0 } { if ($3 > expert && $2 == "Officer") expert = $3 } END { print }' tcpd_department.csv
