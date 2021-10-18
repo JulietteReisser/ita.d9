@@ -1,0 +1,60 @@
+ 1795  dd/mm/yyyy  cd ~/Documents/École/IT-Akademy/Linux
+ 1796  dd/mm/yyyy  touch commands.txt
+ 1797  dd/mm/yyyy  cd covers
+ 1798  dd/mm/yyyy  mkdir Constructeurs
+ 1799  dd/mm/yyyy  mv *.jpg Constructeurs
+ 1800  dd/mm/yyyy  cd ..
+ 1801  dd/mm/yyyy  git clone https://github.com/JulietteReisser/ita.d9.git
+ 1802  dd/mm/yyyy  git clone https://JulietteReisser@github.com/JulietteReisser/ita.d9.git
+ 1803  dd/mm/yyyy  cd ita.d9
+ 1804  dd/mm/yyyy  mkdir day00
+ 1805  dd/mm/yyyy  mv ../covers .
+ 1806  dd/mm/yyyy  mv /covers /day00
+ 1807  dd/mm/yyyy  mv /covers /day00/
+ 1808  dd/mm/yyyy  mv /covers /day00/convers
+ 1809  dd/mm/yyyy  mv ./covers ./day00/covers
+ 1810  dd/mm/yyyy  cd day00/covers
+ 1811  dd/mm/yyyy  mkdir Constructeurs\nmv *.jpg Constructeurs/
+ 1812  dd/mm/yyyy  cd ..
+ 1813  dd/mm/yyyy  mkdir /day00/covers/Constructeurs/Sony /day00/covers/Constructeurs/Nintendo /day00/covers/Constructeurs/Microsoft /day00/covers/Constructeurs/Sega 
+ 1814  dd/mm/yyyy  ls
+ 1815  dd/mm/yyyy  mkdir /day00/covers/Constructeurs1
+ 1816  dd/mm/yyyy  mkdir day00/covers/Constructeurs1
+ 1817  dd/mm/yyyy  mkdir day00/covers/Constructeurs/Sony day00/covers/Constructeurs/Nintendo day00/covers/Constructeurs/Microsoft day00/covers/Constructeurs/Sega 
+ 1818  dd/mm/yyyy  mkdir day00/Constructeurs/*/Consoles day00/Constructeurs/*/Consoles\ portables
+ 1819  dd/mm/yyyy  for d in day00/covers/Constructeurs/*/; do mkdir Consoles Consoles\ portables; done 
+ 1820  dd/mm/yyyy  for d in day00/covers/Constructeurs/*/; do mkdir "$d/Consoles" "$d/Consoles\ portables"; done 
+ 1821  dd/mm/yyyy  for d in day00/covers/Constructeurs/*/; do mkdir "$d/Consoles" "$d/Consoles portables"; done 
+ 1822  dd/mm/yyyy  mkdir day00/covers/Constructeurs/Sony/Consoles/PS4 day00/covers/Constructeurs/Sony/Consoles/PS5 day00/covers/Constructeurs/Nintendo/Consoles/Gamecube day00/covers/Constructeurs/Nintendo/Consoles portables/Game\ boy day00/covers/Constructeurs/Microsoft/Consoles/Xbox day00/covers/Constructeurs/Microsoft/Consoles/Xbox360 day00/covers/Constructeurs/Sega/Consoles/Dreamcast
+ 1823  dd/mm/yyyy  mkdir day00/covers/Constructeurs/Sony/Consoles/PS4 day00/covers/Constructeurs/Sony/Consoles/PS5 day00/covers/Constructeurs/Nintendo/Consoles/Gamecube day00/covers/Constructeurs/Nintendo/Consoles\ portables/Game\ boy day00/covers/Constructeurs/Microsoft/Consoles/Xbox day00/covers/Constructeurs/Microsoft/Consoles/Xbox360 day00/covers/Constructeurs/Sega/Consoles/Dreamcast
+ 1824  dd/mm/yyyy  for d in day00/covers/Constructeurs/*/; do rm -r "$d/*"; done 
+ 1825  dd/mm/yyyy  for d in day00/covers/Constructeurs/*/; do rm -r "$d/"*; done 
+ 1826  dd/mm/yyyy  for d in day00/covers/Constructeurs/*/; do mkdir "$d/Consoles" "$d/Consoles portables"; done
+ 1827  dd/mm/yyyy  mkdir day00/covers/Constructeurs/Sony/Consoles/PS4 day00/covers/Constructeurs/Sony/Consoles/PS5 day00/covers/Constructeurs/Nintendo/Consoles/Gamecube day00/covers/Constructeurs/Nintendo/Consoles\ portables/Game\ boy day00/covers/Constructeurs/Microsoft/Consoles/Xbox day00/covers/Constructeurs/Microsoft/Consoles/Xbox360 day00/covers/Constructeurs/Sega/Consoles/Dreamcast
+ 1828  dd/mm/yyyy  mv day00/covers/playstation_4* day00/covers/Sony/Consoles/PS4
+ 1829  dd/mm/yyyy  for f in day00/covers/playstation4*; mv "$f" day00/covers/Constructeurs/Sony/Consoles/PS4; done
+ 1830  dd/mm/yyyy  for f in day00/covers/playstation4*; mv "$f" day00/covers/Constructeurs/Sony/Consoles/PS4/; done
+ 1831  dd/mm/yyyy  for f in day00/covers/playstation4*; do mv "$f" day00/covers/Constructeurs/Sony/Consoles/PS4; done
+ 1832  dd/mm/yyyy  for f in day00/covers/playstation_4*; do mv "$f" day00/covers/Constructeurs/Sony/Consoles/PS4; done
+ 1833  dd/mm/yyyy  for f in day00/covers/playstation_4*; do mv "$f" day00/covers/Constructeurs/Sony/Consoles/PS4/; done
+ 1834  dd/mm/yyyy  mv day/00/covers/playstation_4* day00/covers/Constructeurs/Sony/Consoles/PS4/
+ 1835  dd/mm/yyyy  day00/covers/playstation_4* day00/covers/Constructeurs/Sony/Consoles/PS4/
+ 1836  dd/mm/yyyy  mv day00/covers/playstation_4* day00/covers/Constructeurs/Sony/Consoles/PS4/
+ 1837  dd/mm/yyyy  mv day00/covers/Constructeurs/playstation_4* day00/covers/Constructeurs/Sony/Consoles/PS4/
+ 1838  dd/mm/yyyy  mv day00/covers/Constructeurs/playstation_5* day00/covers/Constructeurs/Sony/Consoles/PS5/
+ 1839  dd/mm/yyyy  mv day00/covers/Constructeurs/gc* day00/covers/Constructeurs/Nintendo/Consoles/Gamecube/
+ 1840  dd/mm/yyyy  mv day00/covers/Constructeurs/gb* day00/covers/Constructeurs/Nintendo/Consoles\ portables/Game\ Boy/
+ 1841  dd/mm/yyyy  mv day00/covers/Constructeurs/xbox_[^360]* day00/covers/Constructeurs/Nintendo/Consoles\ portables/Game\ Boy/
+ 1842  dd/mm/yyyy  mv day00/covers/Constructeurs/Nintendo/Consoles\ portables/Game\ Boy/xbox* day00/covers/Constructeurs/Microsoft/Consoles/Xbox/
+ 1843  dd/mm/yyyy  mv day00/covers/Constructeurs/x????360* day00/covers/Constructeurs/Microsoft/Consoles/Xbox360/
+ 1844  dd/mm/yyyy  mv day00/covers/Constructeurs/x[box_]?360* day00/covers/Constructeurs/Microsoft/Consoles/Xbox360/
+ 1845  dd/mm/yyyy  mv day00/covers/Constructeurs/x?(box_)360* day00/covers/Constructeurs/Microsoft/Consoles/Xbox360/
+ 1846  dd/mm/yyyy  mv day00/covers/Constructeurs/x360* day00/covers/Constructeurs/Microsoft/Consoles/Xbox360/
+ 1847  dd/mm/yyyy  mv day00/covers/Constructeurs/dc* day00/covers/Constructeurs/Sega/Consoles/Dreamcast/
+ 1848  dd/mm/yyyy  mv day00/covers/Constructeurs/gameboy* day00/covers/Constructeurs/Nintendo/Consoles\ portables/Game\ Boy/
+ 1849  dd/mm/yyyy  mv day00/covers/Constructeurs/ps4* day00/covers/Constructeurs/Sony/Consoles/PS4/
+ 1850  dd/mm/yyyy  mv day00/covers/Constructeurs/xbox_360* day00/covers/Constructeurs/Microsoft/Consoles/Xbox360/
+ 1851  dd/mm/yyyy  find day00/covers/Constructeurs -type d -empty -delete
+ 1852  dd/mm/yyyy  mkdir Ex00
+ 1853  dd/mm/yyyy  mv Ex00/ day00
+ 1854  dd/mm/yyyy  mv day00/covers/ day00/Ex00
