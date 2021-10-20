@@ -1,0 +1,1 @@
+sed 's/cadillac jaune/chevrolet impala/g; s/chapeau rouge/chapeau vert/g' deposition_Joe_Rugiani.txt > deposition_Joe_Rugiani_trafiquee.txt && rm deposition_Joe_Rugiani.txt && mv deposition_Joe_Rugiani_trafiquee.txt deposition_Joe_Rugiani.txt
