@@ -1,0 +1,16 @@
+mkdir covers/Constructeurs
+mv covers/*.jpg covers/Constructeurs/
+mkdir covers/Constructeurs/Sony covers/Constructeurs/Nintendo covers/Constructeurs/Microsoft covers/Constructeurs/Sega 
+for d in covers/Constructeurs/*/; do mkdir "$d/Consoles" "$d/Consoles portables"; done
+mkdir covers/Constructeurs/Sony/Consoles/PS4 covers/Constructeurs/Sony/Consoles/PS5 covers/Constructeurs/Nintendo/Consoles/Gamecube /covers/Constructeurs/Nintendo/Consoles\ portables/Game\ boy covers/Constructeurs/Microsoft/Consoles/Xbox covers/Constructeurs/Microsoft/Consoles/Xbox360 covers/Constructeurs/Sega/Consoles/Dreamcast
+mv covers/Constructeurs/playstation_4* covers/Constructeurs/Sony/Consoles/PS4/
+mv covers/Constructeurs/playstation_5* covers/Constructeurs/Sony/Consoles/PS5/
+mv covers/Constructeurs/gc* covers/Constructeurs/Nintendo/Consoles/Gamecube/
+mv covers/Constructeurs/gb* covers/Constructeurs/Nintendo/Consoles\ portables/Game\ Boy/
+mv covers/Constructeurs/xbox_[^360]* covers/Constructeurs/Microsoft/Consoles/Xbox/
+mv covers/Constructeurs/x360* covers/Constructeurs/Microsoft/Consoles/Xbox360/
+mv covers/Constructeurs/dc* covers/Constructeurs/Sega/Consoles/Dreamcast/
+mv covers/Constructeurs/gameboy* covers/Constructeurs/Nintendo/Consoles\ portables/Game\ Boy/
+mv covers/Constructeurs/ps4* covers/Constructeurs/Sony/Consoles/PS4/
+mv covers/Constructeurs/xbox_360* covers/Constructeurs/Microsoft/Consoles/Xbox360/
+find covers/Constructeurs -type d -empty -delete
