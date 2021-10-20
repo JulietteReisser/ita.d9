@@ -1,3 +1,9 @@
-SortedList.sh
-list
+SortedList
+next.config.js
+node_modules
+package-lock.json
+package.json
+pages
+public
 sorted.txt
+styles
