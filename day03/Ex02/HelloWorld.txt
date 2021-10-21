@@ -1,0 +1,2 @@
+nc -w 3 192.168.59.164 8080 < image.png # envoi
+nc -l 8080 > image2.png # reception
