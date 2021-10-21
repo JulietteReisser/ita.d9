@@ -1,0 +1,1 @@
+0 8 * * 1-5 mkdir -p Meteo && curl wttr.in/Lyon > Meteo/meteoOfTheDay.txt
