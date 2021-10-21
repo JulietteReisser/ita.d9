@@ -1,1 +1,1 @@
-cat histoire.txt | tr ' ' '\n' | sort | uniq -c | sort -r
+cat histoire.txt | tr -s ' ' '\n' | sort | uniq -c | sort -r | awk '{ printf("%s %s\n", $2, $1) }'
